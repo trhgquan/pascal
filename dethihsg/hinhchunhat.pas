@@ -52,7 +52,7 @@ begin
 end;
 
 procedure ghidulieu;
-var i,j : byte;
+var i : byte;
 begin
   assign(f,output);
   rewrite(f);
@@ -62,7 +62,6 @@ begin
       writeln(f);
       for i := 1 to 4 do
         begin
-          if i <> 1 then j := 4;
           write(f,b[i] , ' ');
         end;
     end
