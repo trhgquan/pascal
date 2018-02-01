@@ -60,10 +60,7 @@ begin
     begin
       write(f,dientich);
       writeln(f);
-      for i := 1 to 4 do
-        begin
-          write(f,b[i] , ' ');
-        end;
+      for i := 1 to 4 do write(f,b[i] , ' ');
     end
   else writeln(f,0);
   close(f);
