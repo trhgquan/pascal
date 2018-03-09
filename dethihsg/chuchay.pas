@@ -23,10 +23,10 @@ begin
   xau := decode(str,5);
   for i := 1 to n do
     begin
+      clrscr;
       for j := 1 to i do write(' ');
       writeln(xau);
       delay(100);
-      clrscr;
     end;
   writeln('Xong!');
   readln
