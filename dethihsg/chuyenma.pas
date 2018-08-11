@@ -1,8 +1,8 @@
 program chuyenma;
 uses crt;
 
-const input = 'D:\bd\input\chuyenma.inp';
-      output = 'D:\bd\output\chuyenma.out';
+const input = 'D:\New folder\Code\pascal\dethihsg\input\chuyenma.inp';
+const output = 'D:\New folder\Code\pascal\dethihsg\input\chuyenma.out';
 
 var f : text;
     k : integer;
